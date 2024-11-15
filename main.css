@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    padding-top: 18px;
+    background-color: black;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.select{
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
+.btn{
+    width: 192px;
+    background-color: #f1a900;
+    padding: 26px 0;
+    border: none;
+    color: black;
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 700;
+}
+.header__list{
+    background-color: #222;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+.header__link{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero{
+    padding-top: 349px;
+    padding-bottom: 142px;
+    background-image: url("./images/image\ 5\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.btn1{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    width: 235px;
+    background-color: #f1a900;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.btn2{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    width: 235px;
+    background-color: #000;
+    border: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.content{
+    width: 966px;
+    margin: 31px auto;
+    border-radius: 10px;
+    padding: 31px 0;
+    text-align: center;
+    background: #F1A90054;
+}
+.hero__title{
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.btn1:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.btn1:active{
+    background-color: yellow;
+    color: black;
+}
+.btn2:hover{
+    background-color: orangered;
+    color: white;
+}
+.btn2:active{
+    background-color: green;
+    color: white;
+}
+footer{
+    padding-top: 18px;
+    background-color: black;
+}
+.header__nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+}
